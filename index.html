@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body class="bg-body-secondary">
+    <main>
+        <div class="calculadora">Calculadora</div>
+        <br>
+        <form>
+            <div class="container">
+                <div class="form-control bg-body-tertiary rounded-4">
+                    <label for="num1">Introduzca el primer numero:</label>
+                    <input class="form-control" type="number" id="num1" name="num1" required>
+                    <label for="num2" >Introduzca el segundo numero:</label>
+                    <input class="form-control" type="number" id="num2" name="num2" required>
+                </div>
+                <br>
+                <button class="btn" type="submit" id="sumar"> 
+                    <img src="IMAGES/mas.png" width="38px" height="38px" alt="Boton">
+                </button>
+
+                <button class="btn" type="submit" id="restar">
+                    <img src="IMAGES/menos.png" width="38px" height="38px" alt="Boton">
+                </button>
+
+                <button class="btn" type="submit" id="dividir">
+                    <img src="IMAGES/division.png" width="38px" height="38px" alt="Boton">
+                </button>
+                <button class="btn" type="submit" id="multiplicar">
+                    <img src="IMAGES/multiplicacion.png" width="38px" height="38px" alt="Boton">
+                </button>
+                <button class="btn" type="reset" id="clear">
+                    <img src="IMAGES/cancel.png" width="38px" height="38px" alt="Boton">
+                </button>
+
+            </div>
+        </form>
+        <br>
+        <div id="divResultado"class="mx-10">
+            <h3>Resultado:</h3>
+            <span id="resultado">0</span>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

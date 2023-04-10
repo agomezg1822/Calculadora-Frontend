@@ -1,0 +1,20 @@
+#divResultado{
+    text-align: center;
+}
+
+#resultado{
+   font-size: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+}
+
+.calculadora{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
